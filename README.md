@@ -1,4 +1,5 @@
-# dezesvoeter.nl
+# dezesvoeter.nl [![Netlify Status](https://api.netlify.com/api/v1/badges/4cf1d70f-f02a-4114-893c-109d45e3f603/deploy-status)](https://app.netlify.com/sites/aukje/deploys)
+## Aukje Wind 
 
 ## Project setup
 ```
