@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <h2 class="mt-3">Privé-uitlaatservice</h2>
+    <h2 class="mt-3">Uitlaatservice</h2>
     <h5 class="">Zeist en omstreken</h5>
     <h2 class=""><strong><q>De Zesvoeter</q></strong></h2>
     <h4>Aukje Wind</h4>
