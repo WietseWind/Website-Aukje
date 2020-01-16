@@ -2,7 +2,7 @@
   <div class="tarieven">
     <h2 class="mt-3">Tarieven</h2>
     <div class="pt-3 mb-5 text-left">
-      Wandelingen in de week: €15 per wandeling.<br />
+      <b>Wandelingen in de week</b>: €15 per wandeling.<br />
       <!-- <b>3 - 4</b> wandelingen in de week: €14 per wandeling.<br /> -->
       <!-- <b>5</b> wandelingen in de week: €13,50 per wandeling.<br /> -->
       <b>Losse wandeling</b>: €15<br /><br />
