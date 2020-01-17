@@ -9,7 +9,8 @@
       <br />
       <a href="https://wa.me/31648077493" class="btn btn-md btn-success">
         Contact via <i class="fab fa-whatsapp"></i> WhatsApp
-      </a><br />
+      </a>
+      <br />
       <a id="mail" class="mt-2 btn btn-md btn-primary" v-if="dmail">
         Contact per <i class="far fa-envelope"></i> e-mail
       </a>
