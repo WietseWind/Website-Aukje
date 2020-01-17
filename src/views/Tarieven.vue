@@ -29,7 +29,7 @@
       <br />
       Wilt u dat uw hond een keer extra mee wandelt? dan komt deze wandeling er op de factuur van de daaropvolgende maand bij.<br />
       <br />
-      Vaste wandelingen die 24 uur van te voren afgemeld worden houdt u tegoed en zijn een jaar geldig.<br />
+      Vaste wandelingen die minimaal 24 uur van te voren afgemeld worden, worden uiteraard verrekend op de volgende maandfactuur.<br />
       <br />
       Veranderingen voor de volgende maand dienen voor het einde van de huidige maand doorgegeven te worden, alleen dan kunnen de veranderingen meegenomen worden op de volgende factuur.<br />
       <br />
