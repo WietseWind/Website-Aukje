@@ -9,6 +9,9 @@
       <br />
       <a href="https://wa.me/31648077493" class="btn btn-md btn-success">
         Contact via <i class="fab fa-whatsapp"></i> WhatsApp
+      </a><br />
+      <a id="mail" class="mt-2 btn btn-md btn-primary" v-if="dmail">
+        Contact per <i class="far fa-envelope"></i> e-mail
       </a>
     </p>
     <p class="mt-3 mb-5">
@@ -19,7 +22,15 @@
 
 <script>
 export default {
-  name: 'contact'
+  name: 'contact',
+  data () {
+    return {
+      dmail: true
+    }
+  },
+  mounted () {
+    document.querySelector('#mail').setAttribute('href', 'mailto:aukje' + '@' + 'wind.cd')
+  }
 }
 </script>
 
