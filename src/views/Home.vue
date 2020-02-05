@@ -15,6 +15,7 @@
           Contact per <i class="far fa-envelope"></i> e-mail
         </a>
       </div>
+      <Vol />
     </div>
     <br />
     <img alt="De Zesvoeter" src="../assets/aukje-de-zesvoeter.jpeg" class="img-thumbnail rounded aukje mb-5">
@@ -22,8 +23,13 @@
 </template>
 
 <script>
+import Vol from './partials/Vol'
+
 export default {
   name: 'home',
+  components: {
+    Vol
+  },
   data () {
     return {
       dmail: true
