@@ -1,9 +1,9 @@
 <template>
   <div section="full" class="alert alert-warning px-3 py-2 mt-3 text-center">
-    Let op! De <b>dinsdag</b><u>ochtend</u> en <b>volledige donderdag</b> zitten vol. Op dinsdagmiddag is nog beperkt ruimte.
-    <b>Op de andere dagen zijn er nog plekken beschikbaar in zowel de ochtend als de middag.</b>
+    Let op! <b>Ik zit momenteel vol</b>.
+    Er zijn geen plekken meer beschikbaar. Wanneer er weer plek beschikbaar komt zal ik dit op mijn website bijwerken.
     <br />
-    <small>Je kunt altijd informeren naar een plekje op de wachtlijst voor de dinsdagochtend en donderdag.</small>
+    <small>Je kunt altijd informeren naar een plekje op de wachtlijst.</small>
   </div>
 </template>
 
