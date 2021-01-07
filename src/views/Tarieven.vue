@@ -11,7 +11,7 @@
       <!-- <b>3 - 4</b> wandelingen in de week: €9,80 per wandeling.<br /> -->
       <!-- <b>5</b> wandelingen in de week: €9,45 per wandeling.<br /> -->
       <br />
-      De Zesvoeter II wandelt 2 keer op een dag, de groepsgrootte is afhankelijk van de samenstelling van de groep, maar zal gemiddeld bestaan uit 6 honden.<br />
+      De Zesvoeter II wandelt 2 keer op een dag, de groepsgrootte is afhankelijk van de samenstelling van de groep.<br />
       <br />
       <b>Ochtend wandeling van 10:00 uur tot 11:00 uur</b><br />
       Honden worden opgehaald tussen 09:00 uur en 10:00 uur en thuisgebracht tussen 11:00 uur en 12:00 uur.<br />
