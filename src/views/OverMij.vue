@@ -11,7 +11,7 @@
       Toen ik 12 jaar oud was kreeg ik mijn eerste hond, een flatcoated retriever teefje met de naam Pistache. Het was heerlijk om samen met een hond op te groeien, te wandelen en te trainen.
       <br />
       <br />
-      Ondertussen ben ik 29 en heb ik drie geweldige flatcoated retriever meiden; Lemon (8) en haar dochters Orange (4) en Pomelo (1).
+      Ondertussen ben ik 31 en heb ik drie geweldige flatcoated retriever meiden; Lemon (9) en haar dochters Orange (5) en Pomelo (3).
       <br />
       <br />
       In mijn vrije tijd wandel ik graag met mijn meiden en volg ik training bij Ingrid Jongerius van jachthondenschool Kynoquest.
