@@ -10,7 +10,7 @@
       <br /><br />
       Als dat allemaal geregeld is kan uw hond lekker met mij mee wandelen.
       <br /><br />
-      Ik haal uw hond op in een daarvoor speciaal ingericht busje voorzien van kennels en dakventilatie. Ik rij samen met de honden naar het bos in Zeist of onze eigen omheinde speelweide.
+      Ik haal uw hond op in een daarvoor speciaal ingericht busje voorzien van kennels en dakventilatie. Ik rij samen met de honden naar onze eigen omheinde speelweide.
       <br /><br />
       Aangekomen in het bos of op de speelweide draait alles om plezier en vertrouwen. Ongeacht de groepsgrootte zorg ik er altijd voor dat iedere hond de aandacht krijgt die hij/zij nodig heeft en iedere hond het naar zijn/haar zin heeft binnen de groep. Ik werk op een positieve wijze met honden en dat betekent dat er zeker wel grenzen en regels zijn, maar dat ik die grenzen en regels duidelijk maak door het belonen van gewenst gedrag. Ongewenst gedrag wordt niet bestraft maar zoveel mogelijk voorkomen. Mocht er toch ongewenst gedrag ontstaan dan gaan we er aan werken dit om te buigen naar gewenst gedrag wat ik vervolgens weer kan belonen.
       <br /><br />
