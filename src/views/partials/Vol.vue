@@ -3,7 +3,7 @@
     Let op! <b>Ik zit momenteel vol</b>.
     Er zijn geen plekken meer beschikbaar. Wanneer er weer plek beschikbaar komt zal ik dit op mijn website bijwerken.
     <br />
-    <small>Je kunt altijd informeren naar een plekje op de wachtlijst.</small>
+    <small>Je kunt altijd informeren naar een plekje op de wachtlijst!</small>
   </div>
 </template>
 
