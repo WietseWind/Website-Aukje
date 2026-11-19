@@ -1,6 +1,8 @@
 .DS_Store
 node_modules
 /dist
+.vite-ssg-temp/
+.netlify/
 
 # local env files
 .env.local

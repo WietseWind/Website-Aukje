@@ -1,10 +1,10 @@
-import Vue from 'vue'
+import { ViteSSG } from 'vite-ssg'
 import App from './App.vue'
-import router from './router'
+import { routes, scrollBehavior } from './router'
+import './style.css'
 
-Vue.config.productionTip = false
-
-new Vue({
-  router,
-  render: h => h(App)
-}).$mount('#app')
+export const createApp = ViteSSG(App, {
+  routes,
+  scrollBehavior,
+  base: import.meta.env.BASE_URL,
+})

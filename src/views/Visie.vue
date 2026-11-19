@@ -1,29 +1,19 @@
-<template>
-  <div class="visie">
-    <h2 class="mt-3">Visie</h2>
-    <p class="pt-3 mb-5">
-      Als eigenaresse van 3 honden snap ik maar al te goed dat u uw trouwe viervoeter niet zomaar aan de eerste de beste meegeeft.
-      <br /><br />
-      Wat ik u en uw hond(en) kan bieden is wat ik zelf van een ander verwacht als het om het uitlaten van mijn eigen honden zou gaan.
-      <br /><br />
-      &bull; Vertrouwen<br />
-      &bull; Verantwoordelijkheidsgevoel<br />
-      &bull; Liefdevolle omgang met uw hond<br />
-      &bull; Positieve leermethoden<br />
-      &bull; Geduld<br />
-      &bull; Een fijne boswandeling in een rustige omgeving en stabiele groep<br />
-      &bull; Veel foto’s van uw hond(en)
-      <br /><br />
-      Ik vind het ontzettend belangrijk dat iedere hond zich op zijn/haar gemak voelt binnen de groep en mij vertrouwd. Het vertrouwen van u in mij is belangrijk, maar dat van uw hond(en) misschien nog wel belangrijker.
-    </p>
-  </div>
-</template>
-
-<script>
-export default {
-  name: 'visie'
-}
+<script setup>
+import PageHeading from '../components/PageHeading.vue'
+import SketchIcon from '../components/SketchIcon.vue'
+import { content } from '../data/content'
 </script>
 
-<style lang="scss" scoped>
-</style>
+<template>
+  <article class="inner-page page-enter">
+    <PageHeading eyebrow="Vertrouwen als vertrekpunt" title="Visie" />
+    <div class="article-layout">
+      <aside class="article-aside"><SketchIcon name="heart" /><p>Een fijne wandeling<br />begint met <em>vertrouwen.</em></p></aside>
+      <div class="prose">
+        <p class="lead">{{ content.vision[0] }}</p><p>{{ content.vision[1] }}</p>
+        <ul class="values-list"><li v-for="value in content.values" :key="value"><SketchIcon name="flower" />{{ value }}</li></ul>
+        <p>{{ content.vision[2] }}</p>
+      </div>
+    </div>
+  </article>
+</template>

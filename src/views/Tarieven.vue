@@ -1,50 +1,26 @@
-<template>
-  <div class="tarieven">
-    <h2 class="mt-3">Tarieven</h2>
-    <div class="pt-3 mb-5 text-left">
-      <b>Groepswandeling</b>: €16,50 per wandeling.<br />
-      <!-- <b>3 - 4</b> wandelingen in de week: €14 per wandeling.<br /> -->
-      <!-- <b>5</b> wandelingen in de week: €13,50 per wandeling.<br /> -->
-      <b>Wandeling in het weekend of op feestdagen </b>: €20<br /><br />
-      <b>Een 2e hond op hetzelfde adres ontvangt korting</b><br />
-      Tweede hond op hetzelfde adres, groepswandeling: €10,50 per wandeling.<br />
-      <!-- <b>3 - 4</b> wandelingen in de week: €9,80 per wandeling.<br /> -->
-      <!-- <b>5</b> wandelingen in de week: €9,45 per wandeling.<br /> -->
-      <br />
-      Zesvoeter wandelt 2 keer op een dag, de groepsgrootte is afhankelijk van de samenstelling van de groep.<br />
-      <br />
-      <b>Ochtend wandeling van 10:00 uur tot 11:00 uur</b><br />
-      Honden worden opgehaald tussen 09:00 uur en 10:00 uur en thuisgebracht tussen 11:00 uur en 12:00 uur.<br />
-      <br />
-      <b>Middag wandeling van 13:00 uur tot 14:00 uur</b><br />
-      Honden worden opgehaald tussen 12:00 uur en 13:00 uur en thuisgebracht tussen 14:00 uur en 15:00 uur.<br />
-      <br />
-      Mocht u buiten deze wandeltijden uitlaatservice nodig hebben, neem dan gewoon contact op. In overleg is er veel mogelijk.<br />
-      <br />
-      De tarieven die hierbij gehanteerd worden zijn inclusief BTW.<br />
-      <br />
-      Bij hondenuitlaatservice Zesvoeter spreekt u van te voren af hoeveel- en welke vaste dagen in de week uw hond met ons mee wandeld. (Dagen ruilen en/of extra mee kan in overleg)<br />
-      <br />
-      Op iedere eerste dag van de maand ontvangt u een factuur voor deze maand.<br />
-      <br />
-      Wilt u dat uw hond een keer extra mee wandelt? dan komt deze wandeling er op de factuur van de daaropvolgende maand bij.<br />
-      <br />
-      Vaste wandelingen die minimaal 24 uur van te voren afgemeld worden, worden uiteraard verrekend op de volgende maandfactuur.<br />
-      <br />
-      Veranderingen voor de volgende maand dienen voor het einde van de huidige maand doorgegeven te worden, alleen dan kunnen de veranderingen meegenomen worden op de volgende factuur.<br />
-      <br />
-      Gaat u dus bijvoorbeeld op vakantie en de hond hoeft dan niet mee te wandelen? Geef dit dat tijdig door.<br />
-      <br />
-      Losse wandelingen zijn ook zeker mogelijk alleen dient u er rekening mee te houden dat honden met vaste dagen voor gaan, u ontvangt dan een factuur op de eerste dag van de daaropvolgende maand.
-    </div>
-  </div>
-</template>
-
-<script>
-export default {
-  name: 'tarieven'
-}
+<script setup>
+import PageHeading from '../components/PageHeading.vue'
+import SketchIcon from '../components/SketchIcon.vue'
+import { content } from '../data/content'
 </script>
 
-<style lang="scss" scoped>
-</style>
+<template>
+  <article class="inner-page pricing-page page-enter">
+    <PageHeading eyebrow="Een uur buiten, een tevreden hond" title="Tarieven" />
+    <div class="rate-grid">
+      <section class="rate-card"><SketchIcon name="paw" /><h2>Groepswandeling</h2><p class="rate-price">€ 16,50<span>per wandeling</span></p></section>
+      <section class="rate-card rate-card-lilac"><SketchIcon name="sun" /><h2>Weekend &amp; feestdagen</h2><p class="rate-price">€ 20<span>per wandeling</span></p><p>Wandeling in het weekend of op feestdagen.</p></section>
+      <section class="rate-card rate-card-light"><SketchIcon name="heart" /><h2>Een tweede hond</h2><p class="rate-price">€ 10,50<span>per groepswandeling</span></p><p>Een 2e hond op hetzelfde adres ontvangt korting.</p></section>
+    </div>
+    <p class="rates-note">{{ content.pricing[6] }}</p>
+    <div class="article-layout">
+      <aside class="article-aside"><SketchIcon name="clock" /><p>Twee keer per dag<br /><em>tijd voor buiten.</em></p></aside>
+      <div class="prose">
+        <h2>Wandeltijden</h2><p>{{ content.pricing[2] }}</p>
+        <div class="walk-times"><section v-for="paragraph in content.pricing.slice(3, 5)" :key="paragraph" v-html="paragraph"></section></div>
+        <p>{{ content.pricing[5] }}</p>
+        <h2>Afspraken &amp; betaling</h2><p v-for="paragraph in content.pricing.slice(7)" :key="paragraph">{{ paragraph }}</p>
+      </div>
+    </div>
+  </article>
+</template>
