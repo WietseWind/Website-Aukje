@@ -34,7 +34,7 @@ Publiceer later alleen de inhoud van `dist/` op een statische webhost. De meegel
 - `src/assets/flatcoated-retriever-line-art.png`: definitieve referentiegestuurde lijnillustratie.
 - `src/style.css`: kleuren, typografie en responsive vormgeving.
 
-Persoonlijke leeftijden, hondenaantallen, tarieven en de wachtlijststatus zijn overgenomen uit de oude site. Controleer deze inhoud voordat de website later wordt gepubliceerd.
+De tarieven staan centraal in `src/data/content.js` en volgen de administratieconfiguratie: €18,50, €20 en 27,027% korting voor de tweede hond (€13,50). De leeftijden zijn in november 2026 met drie jaar verhoogd op basis van de laatste inhoudelijke leeftijdsupdate van 22 maart 2023. De wachtlijststatus is overgenomen uit de oude site.
 
 De lijnillustratie is gegenereerd met de ingebouwde Imagegen-tool, op basis van de aangeleverde flatcoatfoto. Brief: een anatomisch herkenbaar staand zijprofiel van een flatcoated retriever, met lange vlakke kop, kleine afhangende oren, rechte rug en bevederde vacht en staart; dunne bosgroene inktlijnen op een transparante achtergrond, zonder tekst of decor.
 

@@ -1,10 +1,28 @@
-// Bestaande website-inhoud, behouden bij de vernieuwing.
+// Tarieven uit de administratieconfiguratie; korting geldt voor de tweede hond.
+export const rates = {
+  group: 18.5,
+  weekendHoliday: 20,
+  secondDogDiscountPercent: 27.027,
+}
+rates.secondDog = Number((rates.group * (1 - rates.secondDogDiscountPercent / 100)).toFixed(2))
+
+export function formatRate(value) {
+  return new Intl.NumberFormat('nl-NL', {
+    style: 'currency',
+    currency: 'EUR',
+    minimumFractionDigits: Number.isInteger(value) ? 0 : 2,
+    maximumFractionDigits: 2,
+  }).format(value)
+}
+
+// Leeftijden bijgewerkt in november 2026: +3 jaar sinds de leeftijdsregel van 22 maart 2023.
+// Overige bestaande website-inhoud behouden bij de vernieuwing.
 export const content = {
   "about": [
     "Welkom bij Hondenuitlaatservice Zesvoeter",
     "Mijn naam is Aukje Wind en mijn liefde voor honden heeft er voor gezorgd dat ik Hondenuitlaatservice Zesvoeter ben begonnen.",
     "Toen ik 12 jaar oud was kreeg ik mijn eerste hond, een flatcoated retriever teefje met de naam Pistache. Het was heerlijk om samen met een hond op te groeien, te wandelen en te trainen.",
-    "Ondertussen ben ik 33 en heb ik vier geweldige flatcoated retriever meiden; Lemon (11), haar dochters Orange (7),Pomelo (5) en kleindochter Lychee (1).",
+    "Ondertussen ben ik 36 en heb ik vier geweldige flatcoated retriever meiden; Lemon (14), haar dochters Orange (10), Pomelo (8) en kleindochter Lychee (4).",
     "In mijn vrije tijd wandel ik graag met mijn meiden en volg ik jacht training bij Ingrid Jongerius van jachthondenschool Kynoquest.",
     "Bij hondenschool Kynoquest draait alles om de positieve leerwijze en op een leuke manier samenwerken met je hond, dit is helemaal wat bij mij past en tot mijn grote geluk vroeg Ingrid mij om haar te gaan helpen met de puppycursus en de basis clicker cursus.",
     "In de tijd dat ik meedraai binnen de hondenschool heb ik ontzettend veel bijgeleerd over honden en gedrag, en hoe fijn is het dat ik al die kennis binnen de Hondenuitlaatservice toe kan passen.",
@@ -58,8 +76,8 @@ export const content = {
     "Veel foto’s van uw hond(en)"
   ],
   "pricing": [
-    "<b>Groepswandeling</b>: €16,50 per wandeling.<br /> <b>Wandeling in het weekend of op feestdagen </b>: €20",
-    "<b>Een 2e hond op hetzelfde adres ontvangt korting</b><br /> Tweede hond op hetzelfde adres, groepswandeling: €10,50 per wandeling.",
+    `<b>Groepswandeling</b>: ${formatRate(rates.group)} per wandeling.<br /> <b>Wandeling in het weekend of op feestdagen </b>: ${formatRate(rates.weekendHoliday)}`,
+    `<b>Een 2e hond op hetzelfde adres ontvangt korting</b><br /> Tweede hond op hetzelfde adres, groepswandeling: ${formatRate(rates.secondDog)} per wandeling.`,
     "Zesvoeter wandelt 2 keer op een dag, de groepsgrootte is afhankelijk van de samenstelling van de groep.",
     "<b>Ochtend wandeling van 10:00 uur tot 11:00 uur</b><br /> Honden worden opgehaald tussen 09:00 uur en 10:00 uur en thuisgebracht tussen 11:00 uur en 12:00 uur.",
     "<b>Middag wandeling van 13:00 uur tot 14:00 uur</b><br /> Honden worden opgehaald tussen 12:00 uur en 13:00 uur en thuisgebracht tussen 14:00 uur en 15:00 uur.",
