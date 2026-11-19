@@ -1,0 +1,92 @@
+const sources = {
+  walking: { name: 'LICG — Wandelen met de hond', url: 'https://www.licg.nl/nieuws/wandelen-met-de-hond-de-dos-en-donts/' },
+  scent: { name: 'Blue Cross — Scent work for dogs', url: 'https://www.bluecross.org.uk/advice/dog/behaviour-and-training/scent-work-for-dogs' },
+  groups: { name: 'Dogs Trust — Professional Dog Walkers’ Guidelines', url: 'https://www.dogstrust.org.uk/downloads/dog-walker-guidelines-2022.pdf' },
+  body: { name: 'Battersea — Understanding your dog’s body language', url: 'https://www.battersea.org.uk/pet-advice/dog-advice/understanding-your-dogs-body-language' },
+  heat: { name: 'LICG — Dier en warmte', url: 'https://www.licg.nl/dier-en-warmte/' },
+  winter: { name: 'LICG — Winter en kou', url: 'https://www.licg.nl/winter-en-kou/' },
+  behaviour: { name: 'RSPCA — Understanding your dog’s behaviour', url: 'https://www.rspca.org.uk/adviceandwelfare/pets/dogs/behaviour' },
+  care: { name: 'LICG — Zorgen voor uw hond', url: 'https://www.licg.nl/honden/zorgen-voor-uw-hond/' },
+}
+
+export const articles = [
+  {
+    slug: 'snuffelen-en-ontdekken',
+    title: 'Snuffelen & ontdekken',
+    seoTitle: 'Waarom snuffelen zo fijn is voor honden',
+    description: 'Een fijne hondenwandeling biedt ruimte om te snuffelen en ontdekken. Lees hoe aandacht voor de neus aansluit bij de visie van De Zesvoeter.',
+    summary: 'Waarom even stilstaan voor de neus óók bij een fijne wandeling hoort.',
+    icon: 'flower',
+    accent: 'De neus mag mee.',
+    intro: 'Even blijven hangen bij een pol gras, de neus in de wind en dan weer een stukje verder. Voor een hond zit een wandeling vol dingen die wij gemakkelijk voorbijlopen. Bij De Zesvoeter is er aandacht voor dat eigen hondenperspectief.',
+    fact: 'Een rustige ontdekkingstocht kan een waardevol onderdeel van het uitlaten zijn. Een fijne wandeling hoeft geen wedstrijd in kilometers te worden.',
+    sections: [
+      { id: 'wereld-van-geuren', title: 'De buitenwereld zit vol geuren', paragraphs: ['Geuren geven honden informatie over hun omgeving. Het LICG adviseert daarom om tijdens het wandelen gelegenheid te geven om te snuffelen. Ook contact met de begeleider hoort erbij: samen wandelen betekent aandacht voor elkaar, met ruimte om de omgeving te onderzoeken.'], sources: ['walking'] },
+      { id: 'neus-aan-het-werk', title: 'Ontdekken met de neus', paragraphs: ['Snuffelwerk laat een hond zijn natuurlijke zoekgedrag gebruiken. Blue Cross beschrijft geurspelletjes als een manier om de hond mentaal bezig te laten zijn. Dat hoeft geen ingewikkelde speurtocht te zijn; iets zoeken kan ook klein en overzichtelijk blijven. Er bestaat geen vaste rekensom waarmee een paar minuten snuffelen voor iedere hond een bepaalde wandeltijd vervangt.'], sources: ['scent'] },
+      { id: 'ruimte-in-achterveld', title: 'Gras onder de poten, ruimte om te ontdekken', paragraphs: ['De Zesvoeter gaat met de honden naar een heerlijke buitenruimte van duizenden vierkante meters in Achterveld, Midden-Nederland. Daar is veel gras en ruimte om te rennen en spelen. De aandacht voor wat een hond nodig heeft, komt rechtstreeks terug in Aukjes visie: iedere hond moet zich op zijn gemak kunnen voelen.', 'De ene hond loopt graag een stukje mee, de andere onderzoekt eerst een geurtje. Juist die verschillen maken het begeleiden van honden zo leuk. Plezier, vertrouwen en positief samenwerken vormen bij De Zesvoeter het vertrekpunt.'] },
+    ],
+  },
+  {
+    slug: 'samen-wandelen-in-een-roedel',
+    title: 'Samen in een roedel',
+    seoTitle: 'Samen wandelen en spelen in een roedel',
+    description: 'Samen wandelen kan fijn zijn voor honden die goed bij elkaar passen. Lees over een stabiele groep, hondentaal en persoonlijke aandacht bij De Zesvoeter.',
+    summary: 'Samen buiten zijn, met oog voor de hond die graag speelt én de rustige snuffelaar.',
+    icon: 'paw',
+    accent: 'Samen, op eigen tempo.',
+    intro: 'Met andere honden buiten zijn kan veel plezier geven. Tegelijk hoeft geen enkele hond de hele tijd midden in het spel te staan. Aukje vindt het belangrijk dat iedere hond zich prettig voelt in de groep en de aandacht krijgt die bij hem of haar past.',
+    fact: 'Hier betekent ‘roedel’ de groep honden die samen op pad gaat. De individuele hond blijft het uitgangspunt bij de samenstelling en begeleiding.',
+    sections: [
+      { id: 'een-passende-groep', title: 'De juiste honden bij elkaar', paragraphs: ['Niet iedere hond voelt zich prettig in een groepswandeling. In de richtlijnen voor professionele hondenuitlaters adviseert Dogs Trust om vooraf te beoordelen of een hond bij de groep past en ontspannen mee kan. Leeftijd, gedrag en mogelijkheden van de hond verdienen daarbij aandacht.'], sources: ['groups'] },
+      { id: 'luisteren-naar-hondentaal', title: 'Honden vertellen veel met hun lijf', paragraphs: ['Battersea legt uit dat honden met hun houding om toenadering of juist om meer afstand kunnen vragen. Een speelse buiging kan een uitnodiging zijn; spanning of wegkruipen kan betekenen dat een hond ruimte nodig heeft. De hele situatie en wat normaal is voor die hond tellen mee. Samen plezier hebben betekent dus ook op tijd ruimte geven.'], sources: ['body'] },
+      { id: 'aandacht-in-de-groep', title: 'Een groep, met aandacht voor ieder individu', paragraphs: ['Bij De Zesvoeter begint het met een vrijblijvend kennismakingsgesprek bij u thuis. Aukje ontmoet uw hond en bespreekt met u de dagen en de afspraken. De groepsgrootte is afhankelijk van de samenstelling van de groep.', 'Op de ruime, groene buitenruimte in Achterveld draait het vervolgens om plezier en vertrouwen. Dat sluit aan bij Aukjes eigen leven met flatcoated retrievers en haar ervaring met positief begeleiden. Samen lopen, spelen of even rustig de omgeving bekijken: het mag bij de hond passen.'] },
+    ],
+  },
+  {
+    slug: 'buiten-in-weer-en-wind',
+    title: 'Buiten in weer & wind',
+    seoTitle: 'Met honden buiten in weer en wind',
+    description: 'Lekker buiten wandelen en spelen, met aandacht voor de hond én het weer. Over gras, ruimte en passende activiteit bij warmte, regen en kou.',
+    summary: 'Frisse neuzen en modderpoten, met het weer en de hond als leidraad.',
+    icon: 'sun',
+    accent: 'Buiten, met aandacht.',
+    intro: 'Wind door de vacht, gras onder de poten en lekker de ruimte om te bewegen. Buiten zijn hoort bij De Zesvoeter. Daarbij staat het welzijn van de honden voorop: weer en wind vragen soms juist om minder doen of een andere invulling.',
+    fact: 'Een natte vacht houdt bij kou minder goed warmte vast. Het LICG adviseert daarom extra aandacht voor natte, dun behaarde, oudere en kwetsbare honden.',
+    factSource: 'winter',
+    sections: [
+      { id: 'ruimte-voor-buitenleven', title: 'Een heerlijke buitenruimte in Achterveld', paragraphs: ['De honden gaan mee naar een buitenruimte van duizenden vierkante meters in Achterveld, in Midden-Nederland. Met veel gras en ruimte om te rennen en spelen is er volop plek om buiten bezig te zijn. De uitlaatservice richt zich op Zeist en regio Utrecht; tijdens de kennismaking bespreekt Aukje wat er voor uw adres mogelijk is.'] },
+      { id: 'warmte-vraagt-rust', title: 'Op warme dagen een tandje terug', paragraphs: ['Bij warmte kan een enthousiaste hond te lang doorgaan met rennen of spelen. Het LICG raadt aan om inspanning te beperken, de koelere momenten op te zoeken en voor schaduw en drinkwater te zorgen. Ook luchtvochtigheid en de gevoeligheid van de hond spelen mee. Er is dus geen enkele temperatuurgrens die iedere hond en iedere situatie veilig maakt.'], sources: ['heat'] },
+      { id: 'regen-en-kou', title: 'Regen, kou en natte poten', paragraphs: ['Hoe goed een hond tegen kou kan, verschilt onder meer met vacht, leeftijd en gezondheid. Rillen vraagt aandacht; een natte vacht isoleert minder goed. In de winter kunnen ook pekel en ijs problemen geven. Het LICG adviseert onder andere om pekelresten van de poten af te spoelen en die daarna te drogen.'], sources: ['winter'] },
+      { id: 'de-hond-geeft-de-maat', title: 'De hond geeft de maat aan', paragraphs: ['Een fijne buitendag past bij de hond die meegaat. Bespreek bijzonderheden over gezondheid, vacht of belastbaarheid daarom tijdens de kennismaking en geef veranderingen door. Aukjes uitgangspunt blijft hetzelfde: liefdevolle aandacht, geduld en een hond die zich prettig voelt. Bij vragen over wat uw hond lichamelijk aankan, is uw eigen dierenarts het aangewezen aanspreekpunt.'] },
+    ],
+  },
+  {
+    slug: 'spelen-leren-en-rust',
+    title: 'Spelen, leren & rust',
+    seoTitle: 'Spelen, positief leren en rust voor honden',
+    description: 'Rennen, snuffelen, een klein oefeningetje en daarna rust. Lees hoe positief begeleiden en aandacht voor de hond samenkomen in de visie van Aukje Wind.',
+    summary: 'Een fijne balans tussen bewegen, samen oefenen en weer tot rust komen.',
+    icon: 'heart',
+    accent: 'Plezier in balans.',
+    intro: 'Een hond hoeft na een uitje niet helemaal uitgeput te zijn om een fijne tijd te hebben gehad. Bij De Zesvoeter draait het om plezier en vertrouwen: samen buiten bezig zijn, met oog voor wat de hond nodig heeft.',
+    fact: 'Rust is óók een hondenbehoefte. Het LICG benadrukt dat honden voldoende ongestoord moeten kunnen slapen en bijkomen.',
+    factSource: 'care',
+    sections: [
+      { id: 'positief-samenwerken', title: 'Leren door wat goed gaat', paragraphs: ['De RSPCA adviseert training met beloningen en een consequente, vriendelijke omgang. Zo oefenen kan prettig zijn voor zowel hond als begeleider. Dat sluit aan op Aukjes verhaal over de positieve leerwijze bij Kynoquest: gewenst gedrag wordt beloond en ongewenst gedrag zoveel mogelijk voorkomen en omgebogen.'], sources: ['behaviour'] },
+      { id: 'ieder-een-eigen-spel', title: 'Spelen mag bij de hond passen', paragraphs: ['De RSPCA noemt regelmatige beweging en gelegenheid tot spel met mensen of vriendelijke honden als onderdeel van goede zorg. Bij De Zesvoeter is er in Achterveld veel gras en ruimte om te rennen en spelen. De aandacht blijft bij de individuele hond en hoe deze zich in de groep voelt.'], sources: ['behaviour'] },
+      { id: 'ruimte-voor-rust', title: 'Na de activiteit weer ontspannen', paragraphs: ['Genoeg rust en ongestoorde slaap helpen een hond om bij te komen. Het LICG noemt daarnaast aandacht, spel en het gebruiken van de hersenen als behoeften van honden. Een dag mag daarom afwisseling bieden: bewegen én weer ontspannen, zonder elk rustig moment meteen op te vullen.'], sources: ['care'] },
+      { id: 'jong-en-oud', title: 'Aandacht voor jonge honden', paragraphs: ['In de werkwijze van De Zesvoeter staat al dat er voor jongere honden rekening wordt gehouden met het groeiende lijf. Het wandelen kan korter en worden afgewisseld met kleine oefeningetjes. Die persoonlijke aandacht is ook de reden om vooraf kennis te maken: uw hond en zijn of haar mogelijkheden vormen het vertrekpunt, niet een standaard prestatiedoel.'] },
+    ],
+  },
+].map((article) => {
+  const sourceKeys = [...new Set([article.factSource, ...article.sections.flatMap((section) => section.sources || [])].filter(Boolean))]
+  return {
+    ...article,
+    path: `/visie/${article.slug}`,
+    datePublished: '2026-11-19',
+    dateModified: '2026-11-19',
+    sources: sourceKeys.map((key) => ({ key, ...sources[key] })),
+    sections: article.sections.map((section) => ({ ...section, sources: (section.sources || []).map((key) => sources[key]) })),
+    factSource: article.factSource ? sources[article.factSource] : undefined,
+  }
+})

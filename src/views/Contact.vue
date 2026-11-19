@@ -9,7 +9,7 @@ import Vol from './partials/Vol.vue'
   <div class="inner-page contact-page page-enter">
     <PageHeading eyebrow="We horen graag van u" title="Contact" />
     <section class="contact-layout" aria-label="Contactgegevens">
-      <div class="contact-details"><p class="eyebrow">Uitlaatservice · Zeist en omstreken</p><h2>De Zesvoeter</h2><RouterLink class="contact-owner" to="/over-mij">Aukje Wind</RouterLink><ContactLinks /><p class="contact-kvk">KvK nummer: <a href="https://www.kvk.nl/zoeken/?source=all&amp;q=76850994&amp;start=0&amp;site=kvk2014" target="_blank" rel="noopener noreferrer">76850994</a></p></div>
+      <div class="contact-details"><p class="eyebrow">Uitlaatservice · Zeist &amp; regio Utrecht</p><h2>De Zesvoeter</h2><RouterLink class="contact-owner" to="/over-mij">Aukje Wind</RouterLink><ContactLinks /><p class="contact-area">Persoonlijke aandacht voor honden uit Zeist en regio Utrecht.<br />Heerlijk buiten spelen in Achterveld, Midden-Nederland.</p><p class="contact-kvk">KvK nummer: <a href="https://www.kvk.nl/zoeken/?source=all&amp;q=76850994&amp;start=0&amp;site=kvk2014" target="_blank" rel="noopener noreferrer">76850994</a></p></div>
       <RetrieverSketch />
     </section>
     <Vol />

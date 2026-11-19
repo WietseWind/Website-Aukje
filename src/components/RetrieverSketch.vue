@@ -1,6 +1,6 @@
 <script setup>
 import SketchIcon from './SketchIcon.vue'
-import flatcoatIllustration from '../assets/flatcoated-retriever-line-art.png'
+import flatcoatIllustration from '../assets/flatcoated-retriever-line-art.webp'
 </script>
 
 <template>

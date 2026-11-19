@@ -1,6 +1,7 @@
 <script setup>
 import PageHeading from '../components/PageHeading.vue'
 import SketchIcon from '../components/SketchIcon.vue'
+import KnowledgeLinks from '../components/KnowledgeLinks.vue'
 import { content } from '../data/content'
 </script>
 
@@ -15,5 +16,11 @@ import { content } from '../data/content'
         <p>{{ content.vision[2] }}</p>
       </div>
     </div>
+    <section class="knowledge-more" aria-labelledby="knowledge-title">
+      <p class="eyebrow">Lekker buiten, met aandacht</p>
+      <h2 id="knowledge-title">Hondengeluk, van dichtbij</h2>
+      <p class="knowledge-intro">Waarom snuffelen erbij hoort, hoe honden samen spelen en waarom rust ook belangrijk is. Verhalen die aansluiten op Aukjes liefde voor honden en het buitenleven.</p>
+      <KnowledgeLinks />
+    </section>
   </article>
 </template>

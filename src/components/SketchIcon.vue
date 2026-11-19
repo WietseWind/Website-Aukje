@@ -29,6 +29,7 @@ defineProps({ name: { type: String, default: 'paw' } })
     <template v-else-if="name === 'sun'">
       <circle cx="12" cy="12" r="4" /><path d="M12 2v2m0 16v2M2 12h2m16 0h2M5 5l1.5 1.5m11 11L19 19M5 19l1.5-1.5m11-11L19 5" />
     </template>
+    <template v-else-if="name === 'chevron'"><path d="m7 10 5 5 5-5" /></template>
     <template v-else-if="name === 'menu'"><path d="M4 8h16M4 16h16" /></template>
     <template v-else-if="name === 'close'"><path d="m6 6 12 12M6 18 18 6" /></template>
     <template v-else>

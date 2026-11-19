@@ -1,7 +1,8 @@
 <script setup>
 import PageHeading from '../components/PageHeading.vue'
 import { content } from '../data/content'
-import walkingPhoto from '../assets/aukje-de-zesvoeter.jpeg'
+import { site } from '../data/site.js'
+const walkingPhoto = site.photo
 </script>
 
 <template>

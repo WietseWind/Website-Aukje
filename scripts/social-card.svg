@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs><clipPath id="photo"><path d="M680 0h520v630H610V120C610 54 635 0 680 0Z"/></clipPath></defs>
+  <rect width="1200" height="630" fill="#f8f9f3"/>
+  <image href="__PHOTO_DATA_URI__" x="570" y="0" width="700" height="630" preserveAspectRatio="xMidYMid slice" clip-path="url(#photo)"/>
+  <g fill="#234b3b" font-family="Georgia, serif">
+    <text x="64" y="92" font-size="39" font-weight="bold">de zesvoeter</text>
+    <text x="64" y="237" font-size="63" letter-spacing="-2">Samen op pad.</text>
+    <text x="64" y="315" font-size="63" font-style="italic" letter-spacing="-2" fill="#667b4d">Helemaal hond.</text>
+  </g>
+  <g fill="#234b3b" font-family="Arial, sans-serif">
+    <text x="67" y="400" font-size="26">Hondenuitlaatservice</text>
+    <text x="67" y="444" font-size="26">Zeist &amp; regio Utrecht</text>
+    <text x="67" y="548" font-size="22">Aukje Wind</text>
+    <text x="67" y="582" font-size="18" fill="#5d6d61">Buiten spelen in Achterveld</text>
+  </g>
+</svg>

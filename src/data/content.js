@@ -33,8 +33,8 @@ export const content = {
     "Als u interesse hebt in mijn diensten kunt u geheel vrijblijvend contact met mij opnemen, we plannen dan een kennismakingsgesprek bij u thuis zodat we elkaar wat vragen kunnen stellen en uw hond(en) en ik elkaar ook kunnen ontmoeten.",
     "Als het van beide kanten goed voelt spreken we samen af welke dagen en tijden uw hond(en) door mij opgehaald zal/zullen worden en krijgt u van mij een digitaal formulier met daarin gelijk de voorwaarden en het sleutelcontract toegevoegd. Dit formulier vult u in en ondertekent u digitaal.",
     "Als dat allemaal geregeld is kan uw hond lekker met mij mee wandelen.",
-    "Ik haal uw hond op in een daarvoor speciaal ingericht busje voorzien van kennels en dakventilatie. Ik rij samen met de honden naar onze eigen omheinde speelweide.",
-    "Aangekomen in het bos of op de speelweide draait alles om plezier en vertrouwen. Ongeacht de groepsgrootte zorg ik er altijd voor dat iedere hond de aandacht krijgt die hij/zij nodig heeft en iedere hond het naar zijn/haar zin heeft binnen de groep. Ik werk op een positieve wijze met honden en dat betekent dat er zeker wel grenzen en regels zijn, maar dat ik die grenzen en regels duidelijk maak door het belonen van gewenst gedrag. Ongewenst gedrag wordt niet bestraft maar zoveel mogelijk voorkomen. Mocht er toch ongewenst gedrag ontstaan dan gaan we er aan werken dit om te buigen naar gewenst gedrag wat ik vervolgens weer kan belonen.",
+    "Ik haal uw hond op in een daarvoor speciaal ingericht busje voorzien van kennels en dakventilatie. Ik rij samen met de honden naar een heerlijke buitenruimte van duizenden vierkante meters in Achterveld, Midden-Nederland. Met veel gras en ruimte om te rennen en spelen kunnen de honden daar lekker buiten zijn.",
+    "Aangekomen op de buitenruimte in Achterveld draait alles om plezier en vertrouwen. Ongeacht de groepsgrootte zorg ik er altijd voor dat iedere hond de aandacht krijgt die hij/zij nodig heeft en iedere hond het naar zijn/haar zin heeft binnen de groep. Ik werk op een positieve wijze met honden en dat betekent dat er zeker wel grenzen en regels zijn, maar dat ik die grenzen en regels duidelijk maak door het belonen van gewenst gedrag. Ongewenst gedrag wordt niet bestraft maar zoveel mogelijk voorkomen. Mocht er toch ongewenst gedrag ontstaan dan gaan we er aan werken dit om te buigen naar gewenst gedrag wat ik vervolgens weer kan belonen.",
     "Na een uur plezier krijgen de honden bij de auto wat water te drinken om vervolgens weer naar huis gebracht te worden. Voor wat jongere honden wordt rekening gehouden met het nog groeiende lijf en zullen we wat korter wandelen en de rest van het uur opvullen met wat leuke oefeningetjes, zo zal uw hond ook geestelijk moe en tevreden zijn."
   ],
   "conditions": [
@@ -72,7 +72,7 @@ export const content = {
     "Liefdevolle omgang met uw hond",
     "Positieve leermethoden",
     "Geduld",
-    "Een fijne boswandeling in een rustige omgeving en stabiele groep",
+    "Heerlijk buiten wandelen en spelen in een rustige omgeving en stabiele groep",
     "Veel foto’s van uw hond(en)"
   ],
   "pricing": [
