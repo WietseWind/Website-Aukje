@@ -22,7 +22,7 @@ export const content = {
     "Welkom bij Hondenuitlaatservice Zesvoeter",
     "Mijn naam is Aukje Wind en mijn liefde voor honden heeft er voor gezorgd dat ik Hondenuitlaatservice Zesvoeter ben begonnen.",
     "Toen ik 12 jaar oud was kreeg ik mijn eerste hond, een flatcoated retriever teefje met de naam Pistache. Het was heerlijk om samen met een hond op te groeien, te wandelen en te trainen.",
-    "Ondertussen ben ik 36 en heb ik twee geweldige flatcoated retriever meiden: Pomelo (8) en Lychee (4).",
+    "Ondertussen ben ik 36 en heb ik drie geweldige flatcoated retriever meiden: Pomelo (8), Lychee (4) en Goji (1).",
     "In mijn vrije tijd wandel ik graag met mijn meiden en volg ik jacht training bij Ingrid Jongerius van jachthondenschool Kynoquest.",
     "Bij hondenschool Kynoquest draait alles om de positieve leerwijze en op een leuke manier samenwerken met je hond, dit is helemaal wat bij mij past en tot mijn grote geluk vroeg Ingrid mij om haar te gaan helpen met de puppycursus en de basis clicker cursus.",
     "In de tijd dat ik meedraai binnen de hondenschool heb ik ontzettend veel bijgeleerd over honden en gedrag, en hoe fijn is het dat ik al die kennis binnen de Hondenuitlaatservice toe kan passen.",
@@ -62,7 +62,7 @@ export const content = {
     "Iedere eerste week van de maand worden de facturen opgemaakt, heeft u wijzigingen geef deze dan voor het einde van de maand door zodat deze meegenomen kunnen worden op de factuur."
   ],
   "vision": [
-    "Als eigenaresse van twee honden snap ik maar al te goed dat u uw trouwe viervoeter niet zomaar aan de eerste de beste meegeeft.",
+    "Als eigenaresse van drie honden snap ik maar al te goed dat u uw trouwe viervoeter niet zomaar aan de eerste de beste meegeeft.",
     "Wat ik u en uw hond(en) kan bieden is wat ik zelf van een ander verwacht als het om het uitlaten van mijn eigen honden zou gaan.",
     "Ik vind het ontzettend belangrijk dat iedere hond zich op zijn/haar gemak voelt binnen de groep en mij vertrouwd. Het vertrouwen van u in mij is belangrijk, maar dat van uw hond(en) misschien nog wel belangrijker."
   ],
